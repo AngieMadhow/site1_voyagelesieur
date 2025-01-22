@@ -53,6 +53,8 @@ header .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    height: 80px;
 }
 
 .logo{
@@ -117,4 +119,108 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    height: 60px;
+    background-color: #EEEEEE;
+    border: 1px solid #D0D0D0;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.titre-section h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.titre-section img{
+
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.conteneur-transport h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteneur-transport p{
+    text-align: center;
+}
+
+/* FOOTER */
+
+
+footer .wrapper ul li a{
+display: inline-block;
+width: 32px;
+height: 32px;
+}
+
+
+.facebook a{
+    background-image: url("../image/facebook.jpg");
+}
+
+.twitter a{
+    background-image: url("../image/twitter.jpg");
+}
+
+.linkedin a{
+    background-image: url("../image/linkedin.jpg");
+}
+.pinterest a{
+    background-image: url("../image/pinterest.jpg");
+}
+
+
+
+
+
+.facebook a:hover{
+    background-image: url("../image/facebook_survol.jpg");
+}
+
+.twitter a:hover{
+    background-image: url("../image/twitter_survol.jpg");
+}
+
+.linkedin a:hover{
+    background-image: url("../image/linkedin_survol.jpg");
+}
+.pinterest a:hover{
+    background-image: url("../image/pinterest_survol.jpg");
+}
+
+footer .wrapper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+
+    background-color: #000000;
+
+    height: 70px;
+}
+
+footer h4{
+    color: white;
+    font-weight: 400;
+}
+
+footer ul{
+
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
